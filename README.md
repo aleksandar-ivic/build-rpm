@@ -1,6 +1,6 @@
 # build-rpm
 
-<a href="https://github.com/Antikythera/build-rpm/actions"><img alt="build-rpm status" src="https://github.com/Antikythera/build-rpm/workflows/test/badge.svg"></a>
+<a href="https://github.com/aleksandar-ivic/build-rpm/actions"><img alt="build-rpm status" src="https://github.com/aleksandar-ivic/build-rpm/workflows/test/badge.svg"></a>
 
 </p>
 
@@ -23,7 +23,7 @@ Basic:
 
 ```yml
 - steps:
-    - uses: Antikythera/build-rpm@v1
+    - uses: aleksandar-ivic/build-rpm@v1
       id: build_rpm
       with:
         spec_file: my_app.spec
@@ -45,7 +45,7 @@ With variables:
 
 ```yml
 - steps:
-    - uses: Antikythera/build-rpm@v1
+    - uses: aleksandar-ivic/build-rpm@v1
       id: build_rpm
       with:
         spec_file: my_app.spec
